@@ -47,3 +47,11 @@ else{
  case 5: console.log("Friday"); break;
  case 6: console.log("saturday");
  }
+let score = 60;
+ switch(score){
+    case score>95: console.log("A");break;
+    case (score>80&&
+ }
+
+ //Leapyear
+ //oddoreven

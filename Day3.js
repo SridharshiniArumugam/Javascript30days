@@ -47,11 +47,21 @@ else{
  case 5: console.log("Friday"); break;
  case 6: console.log("saturday");
  }
-let score = 60;
- switch(score){
-    case score>95: console.log("A");break;
-    case (score>80&&
+var score = 61;
+ switch(true){
+    case score>=90 :console.log("A");break;
+    case score>=80 :console.log("B");break;
+    case score>=70 :console.log("c");break;
+    case score>=60 :console.log("D");break;
+    case score>=50 :console.log("E");
+   
  }
 
- //Leapyear
  //oddoreven
+ let M = (score%2 ===0) ? "even" : "odd" ;
+console.log(M);
+
+// Leap year
+let year = 2025;
+let leap = (year%4 ===0 && year%100 !=0 ) ? "leap year" : "Not Leap year";
+console.log(leap);
